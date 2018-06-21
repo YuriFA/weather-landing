@@ -1,12 +1,298 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Starter</title>
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,500,700" rel="stylesheet">
 </head>
+
 <body>
-  SOME HTML THERE
+  <header class="main-header">
+    <div class="container">
+      <div class="header__head">
+        <div class="logo">FUN WEATHER.</div>
+        <nav class="main-nav">
+          <ul class="main-nav__list">
+            <li class="main-nav__item">
+              <a href="#">Home</a>
+            </li>
+            <li class="main-nav__item">
+              <a href="#">Features</a>
+            </li>
+            <li class="main-nav__item">
+              <a href="#">Reviews</a>
+            </li>
+            <li class="main-nav__item">
+              <a href="#">Download</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="main-socials">
+          <a href="#" class="social-link social-facebook"></a>
+          <a href="#" class="social-link social-instagram"></a>
+          <a href="#" class="social-link social-twitter"></a>
+        </div>
+      </div>
+      <div class="hero">
+        <div class="hero-col hero-col-1">
+          <div class="hero-description">
+            <h1>Get the most fun weather app</h1>
+            <p class="hero-notice">Simple, nice and user-friendly application of the weather. Only useful information</p>
+            <div class="hero-buttons">
+              <button class="hero-button hero-button--orange">Download</button>
+              <button class="hero-button hero-button--blue">Features</button>
+            </div>
+          </div>
+        </div>
+        <div class="hero-col hero-col-2">
+          <div class="hero-images">
+            <div class="phone-wrapper">
+              <img src="images/phone.png" alt="Phone">
+            </div>
+            <div class="round round-1">
+              <span>sunny</span>
+            </div>
+            <div class="round round-2">
+              <span>9˚</span>
+            </div>
+            <div class="round round-3">
+              <span>london</span>
+            </div>
+            <div class="round round-4">
+              <span>rio</span>
+            </div>
+          </div>
+        </div>
+        <div class="anchor-next">
+          <a href="#next"></a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="main-block container features">
+      <div class="main-block__head">
+        <h2 class="block-title">Perfect features</h2>
+        <p class="block-subtitle">Only necessary</p>
+      </div>
+      <div class="main-block__content">
+        <ul class="features-list">
+          <li class="features-list__item">
+            <div class="feature">
+              <div class="feature-img">
+                <img src="images/diamond.png" alt="">
+              </div>
+              <div class="feature-details">
+                <div class="feature-title">Usability</div>
+                <div class="feature-notice">Sometimes the simplest things are the hardest to find. So we created a new line for everyday life</div>
+              </div>
+            </div>
+          </li>
+          <li class="features-list__item">
+            <div class="feature">
+              <div class="feature-img">
+                <img src="images/parallax.png" alt="">
+              </div>
+              <div class="feature-details">
+                <div class="feature-title">Parallax Effect</div>
+                <div class="feature-notice">Sometimes the simplest things are the hardest to find. So we created a new line for everyday life</div>
+              </div>
+            </div>
+          </li>
+          <li class="features-list__item">
+            <div class="feature">
+              <div class="feature-img">
+                <img src="images/colors.png" alt="">
+              </div>
+              <div class="feature-details">
+                <div class="feature-title">Unlimities Colors</div>
+                <div class="feature-notice">Sometimes the simplest things are the hardest to find. So we created a new line for everyday life</div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="main-block container widgets">
+      <div class="main-block__head">
+        <h2 class="block-title">Simple widgets</h2>
+        <p class="block-subtitle">Drag and Drop</p>
+      </div>
+      <div class="main-block__content">
+        <div class="slider slider-widgets">
+          <div class="slider-items">
+            <div class="slider__item">
+              <img src="images/slide-2.png" alt="">
+            </div>
+            <div class="slider__item">
+              <img src="images/slide-1.png" alt="">
+            </div>
+            <div class="slider__item">
+              <img src="images/slide-3.png" alt="">
+            </div>
+          </div>
+          <div class="slider-controls">
+            <div class="slider-next-button"></div>
+            <div class="slider-prev-button"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="main-block container screenshots">
+      <div class="main-block__head">
+        <h2 class="block-title">Screenshots</h2>
+        <p class="block-subtitle">The brightest images</p>
+      </div>
+      <div class="main-block__content">
+        <div class="row">
+          <div class="col">
+            <img src="images/screen-1.png" alt="">
+          </div>
+          <div class="col col-right">
+            <div class="weather-icon-wrapper">
+              <img src="images/clouds.png" alt="">
+            </div>
+            <h3 class="screenshots-title">when the clouds</h3>
+            <div class="screenshots-notice">
+              Variable information on the air humidity, the feeling of the weather, and the ability to share this with your friends
+            </div>
+            <div class="screenshots-statuses">
+              <div class="status status-1">95%</div>
+              <div class="status status-2">9˚</div>
+              <div class="status status-3">Rainy</div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="weather-icon-wrapper">
+              <img src="images/sunny.png" alt="">
+            </div>
+            <h3 class="screenshots-title">when the sun</h3>
+            <div class="screenshots-notice">
+              Sometimes the simpliest things are the hardest to find. So we created a new line for everyday life. Sometimes the simplest
+            </div>
+            <div class="screenshots-statuses">
+              <div class="status status-1">95%</div>
+              <div class="status status-2">9˚</div>
+              <div class="status status-3">Rainy</div>
+            </div>
+          </div>
+          <div class="col col-right">
+            <img src="images/screen-2.png" alt="">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <img src="images/screen-3.png" alt="">
+          </div>
+          <div class="col col-right">
+            <div class="weather-icon-wrapper">
+              <img src="images/rainy.png" alt="">
+            </div>
+            <h3 class="screenshots-title">when the clouds</h3>
+            <div class="screenshots-notice">
+              Variable information on the air humidity, the feeling of the weather, and the ability to share this with your friends
+            </div>
+            <div class="screenshots-statuses">
+              <div class="status status-1">95%</div>
+              <div class="status status-2">9˚</div>
+              <div class="status status-3">Rainy</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="main-block container reviews">
+      <div class="main-block__head">
+        <h2 class="block-title">What people are saying</h2>
+        <p class="block-subtitle">Reviews</p>
+      </div>
+      <div class="reviews">
+        <ul class="reviews-list">
+          <li class="reviews-list__item">
+            <div class="blockquotes"></div>
+            <div class="review-text">What art offers is space - a certain breathing room for the spirit.</div>
+            <div class="review-author">John Updike</div>
+            <div class="blockquotes blockquotes-close"></div>
+          </li>
+          <li class="reviews-list__item">
+            <div class="blockquotes"></div>
+            <div class="review-text">We do not see nature with our eyes, but with our understandings and our hearts.</div>
+            <div class="review-author">William Hazlitt</div>
+            <div class="blockquotes blockquotes-close"></div>
+          </li>
+          <li class="reviews-list__item">
+            <div class="blockquotes"></div>
+            <div class="review-text">The only courage that matters is the kind that gets you from one moment to the next.</div>
+            <div class="review-author">Mignon McLaughlin</div>
+            <div class="blockquotes blockquotes-close"></div>
+          </li>
+          <li class="reviews-list__item">
+            <div class="blockquotes"></div>
+            <div class="review-text">No man has a good enough memory to be a success-ful liar.</div>
+            <div class="review-author">Abraham Lincoln</div>
+            <div class="blockquotes blockquotes-close"></div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="how-download">
+      <div>How to download the app?</div>
+      <div class="notice">
+        Just download the app from the store. Simple, nice and user-friendly application of theweather. Only relevant and useful
+        information.
+      </div>
+      <div class="download-links">
+        <div class="app-store-link"></div>
+        <div class="google-play-link"></div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="footer__head">
+      <div class="logo">
+        <span class="logo__orange">FUN</span>
+        <span class="logo__blue">WEATHER</span>
+      </div>
+      <nav class="footer-nav">
+        <ul class="footer-nav__list">
+          <li class="footer-nav__item">
+            <a href="#">Home</a>
+          </li>
+          <li class="footer-nav__item">
+            <a href="#">Features</a>
+          </li>
+          <li class="footer-nav__item">
+            <a href="#">Reviews</a>
+          </li>
+          <li class="footer-nav__item">
+            <a href="#">Download</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="footer-socials">
+        <div class="social-button">
+          <a href="#" class="social-button__link"></a>
+        </div>
+        <div class="social-button">
+          <a href="#" class="social-button__link"></a>
+        </div>
+        <div class="social-button">
+          <a href="#" class="social-button__link"></a>
+        </div>
+      </div>
+    </div>
+    <div class="divider"></div>
+    <div class="footer__copyrights">
+      <div class="copyright-notice">
+        @ 2018 All rights reserved. Weather Aoo theme by Author
+      </div>
+    </div>
+  </footer>
 </body>
+
 </html>

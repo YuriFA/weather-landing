@@ -14,12 +14,20 @@ const rules = [
     },
   },
   {
+    test: /\.html$/,
+    use: [
+      {
+        loader: 'html-loader',
+      },
+    ],
+  },
+  {
     test: /\.css$/,
     use: [
       devMode ? 'style-loader' : MiniCssExtractPlugin.loader,
       {
         loader: 'css-loader',
-        options: { modules: true, importLoaders: 1 },
+        options: { importLoaders: 1 },
       },
       {
         loader: 'postcss-loader',
