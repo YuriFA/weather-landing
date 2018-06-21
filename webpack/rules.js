@@ -27,7 +27,7 @@ const rules = [
       devMode ? 'style-loader' : MiniCssExtractPlugin.loader,
       {
         loader: 'css-loader',
-        options: { importLoaders: 1 },
+        options: { url: false, importLoaders: 1 },
       },
       {
         loader: 'postcss-loader',

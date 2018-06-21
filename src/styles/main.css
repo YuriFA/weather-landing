@@ -1,5 +1,5 @@
-/* Base */
-@import "./base/base.css";
+@import "suitcss-base";
+@import './base/base.css';
 
 .main-header {
   background-color: #648cff;

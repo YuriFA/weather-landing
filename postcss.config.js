@@ -8,7 +8,7 @@ const debug = process.env.NODE_ENV !== 'production';
 module.exports = {
   map: debug,
   plugins: [
-    atImport({ path: ['./src']}),
+    atImport(),
     // url({ url: 'rebase'}),
     cssnext({
       features: {
