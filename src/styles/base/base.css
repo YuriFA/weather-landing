@@ -11,10 +11,10 @@
  */
 
 :root {
-  --fontFamilyHelvetica: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  --fontFamilyBase: var(--fontFamilyHelvetica);
+  --fontFamily: Ubuntu, sans-serif;
+  --fontFamilyBase: var(--fontFamily);
 
-	--fontSize: 1rem;
+	--fontSize: 16px;
 	--lineHeight: 1.4;
 	--baseline: calc(var(--fontSize) * var(--lineHeight));
 
@@ -22,12 +22,11 @@
 	--siteWidth: 73.125rem; /* 1170px */
 	--sitePadding: 1.25rem;
 
-	--mainTextColor: #254C73;
+	--mainTextColor: #353854;
 }
 
 html,
 body {
-  display: flex;
 	font-size: var(--fontSize);
   font-family: var(--fontFamilyBase);
 	line-height: var(--lineHeight);
