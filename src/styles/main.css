@@ -1,0 +1,6 @@
+/* Base */
+@import "./base/base.css";
+
+body {
+  background-image: url('images/lock.png');
+}

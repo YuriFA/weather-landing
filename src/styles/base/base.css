@@ -1,0 +1,35 @@
+/**
+ * BREAKPOINTS
+ */
+
+@custom-media --sm-viewport (min-width: 640px);
+@custom-media --md-viewport (min-width: 960px);
+@custom-media --lg-viewport (min-width: 1280px);
+
+/**
+ * CONFIG
+ */
+
+:root {
+  --fontFamilyHelvetica: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --fontFamilyBase: var(--fontFamilyHelvetica);
+
+	--fontSize: 1rem;
+	--lineHeight: 1.4;
+	--baseline: calc(var(--fontSize) * var(--lineHeight));
+
+  /* SOME SITE SETTINGS */
+	--siteWidth: 73.125rem; /* 1170px */
+	--sitePadding: 1.25rem;
+
+	--mainTextColor: #254C73;
+}
+
+html,
+body {
+  display: flex;
+	font-size: var(--fontSize);
+  font-family: var(--fontFamilyBase);
+	line-height: var(--lineHeight);
+  color: var(--mainTextColor);
+}
