@@ -1,8 +1,23 @@
-# Web Starter
+Webpack html boilerplate for building html files with style and js bundles.
 
-## Acknowledgements
+## Quick start
 
-* [Web Starter Kit by Google](https://developers.google.com/web/tools/starter-kit/)
-* [task automation with npm run by James Halliday](http://substack.net/task_automation_with_npm_run)
-* [Source Code for philipwalton.com by Philip Walton](https://github.com/philipwalton/blog)
-* [Auto-build CSS / JS etc by TJ Holowaychuk](https://github.com/tj/watch#auto-build-css--js-etc)
+- Clone the git repo — `git clone
+  https://github.com/YuriFA/webpack-html-boilerplate.git`
+- Install packages with [yarn](https://yarnpkg.com/) `yarn` or [npm](https://www.npmjs.com/) `npm install`
+- Run dev server with `yarn start` or `npm run start`
+
+## Features
+
+* HTML5 ready. Use the new elements with confidence.
+* Includes:
+  * [`Normalize.css`](https://necolas.github.com/normalize.css/)
+    for CSS normalizations and common bug fixes
+
+## Browser support
+
+```
+  last 2 version
+  > 1%
+  IE 10
+```

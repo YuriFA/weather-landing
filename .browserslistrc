@@ -1,2 +1,3 @@
-defaults
-not Explorer < 11
+last 2 version
+> 1%
+IE 10

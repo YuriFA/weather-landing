@@ -1,22 +1,23 @@
-const atImport = require('postcss-import');
-const url = require("postcss-url")
-const cssnext = require('postcss-cssnext');
-const csso = require('postcss-csso');
-
-const debug = process.env.NODE_ENV !== 'production';
-
 module.exports = {
-  map: debug,
   plugins: [
-    atImport(),
-    // url({ url: 'rebase'}),
-    cssnext({
+    require('postcss-preset-env')({
+      stage: 0,
       features: {
-        applyRule: false,
-        colorHexAlpha: false,
-        rem: false,
+        'custom-properties': { preserve: false },
       },
     }),
-    ...(debug ? [] : [csso()]),
+    require('cssnano')({
+      preset: [
+        'default',
+        {
+          discardComments: {
+            removeAll: true,
+          },
+        },
+      ],
+    }),
+    require('postcss-inline-svg')({
+      path: './src/',
+    }),
   ],
-};
+}

@@ -1,15 +1,3 @@
-/**
- * BREAKPOINTS
- */
-
-@custom-media --sm-viewport (min-width: 640px);
-@custom-media --md-viewport (min-width: 960px);
-@custom-media --lg-viewport (min-width: 1280px);
-
-/**
- * CONFIG
- */
-
 :root {
   --fontFamily: Ubuntu, sans-serif;
   --fontFamilyBase: var(--fontFamily);

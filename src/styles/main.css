@@ -1,9 +1,10 @@
-@import "suitcss-base";
+@import "~normalize.css/normalize.css";
+@import '~suitcss-base/lib/base.css';
 @import './base/base.css';
 
 .main-header {
   background-color: #648cff;
-  background-image: url('images/wave-bg.png');
+  background-image: url('/images/wave-bg.png');
 }
 
 .container {
